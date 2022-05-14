@@ -75,8 +75,8 @@ void loop() {
 
   if(flag != 1 && deger >750){
     flag = 1;
-    client.publish("esp8266", "Oksijen Olcum Degerleri Dusuk Lutfen Mudahale Ediniz! Havuz Numarası = 1");
-    client.subscribe("esp8266");        
+    client.publish("esp8266", "Oksijen Olcum Degerleri Dusuk Lutfen Mudahale Ediniz! Havuz Numarası = 1");  //esp8266 topic ile publish yapiliyor 
+    client.subscribe("esp8266");                                                                            //raspberry pi tarafinda da esp8266 topic ile karsilanmalidir
   }
   
   if(deger < 750) flag = 0;
