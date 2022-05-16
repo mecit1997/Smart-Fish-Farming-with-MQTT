@@ -1,4 +1,0 @@
-ESP 8266 üzerinde oksijen sensörü ölçümleri yerine test ortamı olduğu için potansiyometre kullanılmıştır.
-Havuzların belirli bölgelerde bulunan her birisine kimlik numarası atanmıştır ama eğer istenilirse GPS uygulaması içeren kodlar kullanılarak havuzun konum bilgileri gönderilebilir.
-Potansiyometrenin ölçdüğü değer 750 den fazlaysa broker'a doğru publish işlemi gerçeleştirilmektedir.
-Değerin 750 den fazla olması gerçek uygulamada oksijen sensörünün sudaki oksijen miktarını düşük olarak ölçmesine karşılık gelmektedir.
