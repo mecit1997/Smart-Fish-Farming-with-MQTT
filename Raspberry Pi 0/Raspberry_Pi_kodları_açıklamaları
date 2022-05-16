@@ -1,4 +1,0 @@
-Broker.py script'i çalıştırıldığında sürekli olarak havuzlara bağlı olan esp8266 modüllerinden mesaj beklemektedir.
-send_mail.sh Raspberry pi üzerinde çalıştırılacaktır.
-Python script'i içinde aynı zamanda subprocess ile ssmtp mail uygulamasını kullanarak mail gönderen send_mail.sh shell script'ini çalıştırmaktadır.
-ESP8266 mesajları sadece oksijen değerleri düşük olduğunda gönderir ve mesajı alan broker kullanıcıya doğru mail script'ini çalıştırarak kullanıcıyı bilgilendirir.
