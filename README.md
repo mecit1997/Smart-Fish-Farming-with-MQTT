@@ -1,5 +1,6 @@
 # MQTT Protokolü Tabanlı Akıllı Balık Çiftliği
 Bu proje MQTT Prokolü tabanlı mobil bir akıllı balık çiftliği uygulamasını içermektedir.
+
 Raspberry Pi Kurulum İşlemleri
 Raspberry Pi 0’ya işletim sistemi kurulabilmesi için  imager uygulaması kurulumu gerekmektedir. Bu uygulama https://www.raspberrypi.com/software/ adresinden indirilebilir. Uygulama çalıştırıldıktan sonra CHOOSE OS seçeneğinden Raspberry Pi Operating System seçilmelidir. 
 SSH ve Wifi Kurulumu
